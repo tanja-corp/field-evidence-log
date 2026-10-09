@@ -1,0 +1,88 @@
+name: 経験・実績を1件追加する
+description: 現場での経験、分かったこと、数字、出典を1件ずつ記録します
+title: "[Entry] "
+labels: ["entry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **この記録は公開ページに載ります。** 個人名、取引先名、金額、社内の非公開の情報は書かないでください。
+        分からない項目は空でかまいません。あとで整理します。
+  - type: input
+    id: date
+    attributes:
+      label: 日付
+      description: YYYY-MM または YYYY-MM-DD
+      placeholder: "2026-10"
+    validations:
+      required: true
+  - type: input
+    id: entry_title
+    attributes:
+      label: タイトル
+      description: 何をしたか、が一言で分かる形で
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 分野
+      options:
+        - 現場作業 (field)
+        - データ整理 (data)
+        - 調査 (research)
+        - ツール (tools)
+        - チーム・対話 (team)
+        - 振り返り (reflection)
+    validations:
+      required: true
+  - type: textarea
+    id: situation
+    attributes:
+      label: 状況・課題
+      description: どんな場面で、何が求められていたか
+  - type: textarea
+    id: action
+    attributes:
+      label: 自分がしたこと
+      description: 自分の担当範囲を、分かる範囲で具体的に
+  - type: textarea
+    id: result
+    attributes:
+      label: 分かったこと・成果
+      description: 数字があれば、単位と期間を添えて
+  - type: textarea
+    id: learning
+    attributes:
+      label: 学び・次にすること
+  - type: dropdown
+    id: evidence_level
+    attributes:
+      label: 根拠の種類
+      options:
+        - 観察した (observed)
+        - 記録で確認 (recorded)
+        - 公開資料 (public-source)
+        - 私の見方 (my-view)
+        - 要確認 (to-confirm)
+  - type: input
+    id: source
+    attributes:
+      label: 出典
+      description: URL か資料名
+  - type: checkboxes
+    id: uses
+    attributes:
+      label: 使う場面
+      options:
+        - label: Admin Meeting
+        - label: 最終成果発表
+        - label: ガクチカ・ES
+        - label: 面接
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 公開してよい内容の確認
+      options:
+        - label: 個人名・取引先名・金額・非公開の情報を含んでいません
+          required: true

@@ -1,0 +1,40 @@
+{
+  "owner": "tanja-corp",
+  "repo": "field-evidence-log",
+  "title": "Field Evidence Log",
+  "subtitle": "現場で確かめたことを、判断と実績につなげる記録",
+  "purpose_ja": "インターンで何をして、何が分かったかを1か所にためる。まず月例のAdmin Meetingで発表し、その後は最終成果発表、ES、面接でも使えるように育てる。",
+  "milestones": [
+    { "label": "Nairobi 現地ヒアリング（調査の質問を試す）", "date": "2026-10-14", "state": "fixed" },
+    { "label": "Admin Meeting（毎月 9:00）", "date": null, "state": "tbd", "note": "日付と持ち時間が未確定" },
+    { "label": "インターンの最終成果発表", "date": null, "state": "tbd", "note": "日付と形式が未確定" }
+  ],
+  "area_labels": {
+    "field": "現場作業",
+    "data": "データ整理",
+    "research": "調査",
+    "tools": "ツール",
+    "team": "チーム・対話",
+    "reflection": "振り返り"
+  },
+  "evidence_labels": {
+    "observed": "観察した",
+    "recorded": "記録で確認",
+    "public-source": "公開資料",
+    "my-view": "私の見方",
+    "to-confirm": "要確認"
+  },
+  "status_labels": {
+    "draft": "下書き",
+    "needs-check": "要確認あり",
+    "confirmed": "確認済み",
+    "planned": "これから"
+  },
+  "use_labels": {
+    "admin-meeting": "Admin Meeting",
+    "final-presentation": "最終成果発表",
+    "gakuchika": "ガクチカ・ES",
+    "interview": "面接"
+  },
+  "fact_tag_note": "確度タグは就活用の台帳と同じ。✅確定／⚠️要確認／💭構想・進行中／⏸停止。確定回答に使ってよいのは✅だけ。"
+}

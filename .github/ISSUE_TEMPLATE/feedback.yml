@@ -1,0 +1,38 @@
+name: 構成へのフィードバックを送る
+description: スライドの構成や問いに、OK／直す／保留を返します
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        スライド番号（S03 など）、問い（Q04 など）、記録（E-0002 など）を「対象」に書いてください。
+  - type: input
+    id: target
+    attributes:
+      label: 対象
+      placeholder: "S03"
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: 判断
+      options:
+        - OK
+        - 直す
+        - 保留
+    validations:
+      required: true
+  - type: textarea
+    id: comment
+    attributes:
+      label: コメント
+      description: 直す点、答え、足りない情報など
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 公開してよい内容の確認
+      options:
+        - label: 個人名・取引先名・金額・非公開の情報を含んでいません
+          required: true

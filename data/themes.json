@@ -1,0 +1,58 @@
+[
+  {
+    "id": "verify-on-ground",
+    "name_ja": "現地で確かめる",
+    "name_en": "Verify on the ground",
+    "statement_ja": "地図や記録に出ないことは、現地を見て初めて分かる。散布したことと、効いたことも別。",
+    "interview_ja": "仕事で大事にしていること、予想と違った経験、観察力を聞かれたときの軸になる。",
+    "next_ja": "現地確認の項目を決めて、次の候補地や散布のあとに試す。"
+  },
+  {
+    "id": "comparable-data",
+    "name_ja": "比べられる形にそろえる",
+    "name_en": "Make data comparable",
+    "statement_ja": "同じ項目、同じ単位、同じ年にそろえると、判断のための比較ができる。そろわない数字は、そろわないと書く。",
+    "interview_ja": "データ整理、Excel、調査の進め方を聞かれたときに使う。",
+    "next_ja": "牛の表と調査のスライドで、そろえ方を同じ型にまとめる。"
+  },
+  {
+    "id": "fact-vs-view",
+    "name_ja": "事実と見方を分ける",
+    "name_en": "Separate fact from view",
+    "statement_ja": "観察、記録、公開資料、自分の見方、要確認を分けて見せると、聞く側は信頼する度合いを選べる。",
+    "interview_ja": "誠実さ、論理的思考、数字の扱いを聞かれたときに使う。",
+    "next_ja": "すべての資料に同じタグを使う。"
+  },
+  {
+    "id": "questions-from-data",
+    "name_ja": "公開データを現地の質問に変える",
+    "name_en": "Turn public data into field questions",
+    "statement_ja": "資料で分かることと、現地でしか分からないことを分けて、質問の形にする。",
+    "interview_ja": "調査力、仮説思考、準備の仕方を聞かれたときに使う。",
+    "next_ja": "10/14のヒアリング後に、質問が答えを引き出せたかを振り返る。"
+  },
+  {
+    "id": "fair-test",
+    "name_ja": "公平な比較を設計する",
+    "name_en": "Design a fair comparison",
+    "statement_ja": "条件をそろえて2群で比べると、方法の良し悪しを数字で話せる。",
+    "interview_ja": "改善、検証、PDCAを聞かれたときに使う。ただし自分の役割が確認できるまで、自分の実績にしない。",
+    "next_ja": "試験の結果と、自分の役割を確認する。"
+  },
+  {
+    "id": "make-visible",
+    "name_ja": "見えるようにする",
+    "name_en": "Make daily information visible",
+    "statement_ja": "毎日の情報を見える形にすると、現場の判断が早くなる可能性がある。更新の手間を増やさないことが条件。",
+    "interview_ja": "主体性、ITの活用、現場の課題解決を聞かれたときに使う。",
+    "next_ja": "使う人に必要な情報を聞き、試作の範囲を決める。"
+  },
+  {
+    "id": "audience-fit",
+    "name_ja": "相手の判断に合わせて伝える",
+    "name_en": "Fit the message to the decision maker",
+    "statement_ja": "判断する立場の人には、作業量より「どの判断に関係するか」と「どんな助言がほしいか」を先に出す。",
+    "interview_ja": "コミュニケーション、資料作成、巻き込み力を聞かれたときに使う。",
+    "next_ja": "発表後に、聞いた助言と反応を記録に足す。"
+  }
+]

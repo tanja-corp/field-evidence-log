@@ -1,0 +1,5 @@
+scripts/denylist.local.txt
+__pycache__/
+*.pyc
+_site/
+.DS_Store
