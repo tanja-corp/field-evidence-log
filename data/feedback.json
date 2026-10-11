@@ -1,10 +1,1 @@
-[
-  {
-    "id": "FB-0001",
-    "target": "Q12",
-    "verdict": "hold",
-    "comment": "TEST: input pipeline check (will be removed)",
-    "created": "2026-10-11T15:52:36Z",
-    "source_issue": 1
-  }
-]
+[]
