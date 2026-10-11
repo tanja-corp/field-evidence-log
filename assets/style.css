@@ -142,6 +142,7 @@ details ul { margin: 4px 0 0; padding-left: 1.2em; font-size: 14px; color: var(-
 .chip.dot::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--sN); }
 .chip.g-field::before { background: var(--s1); }
 .chip.g-research::before { background: var(--s2); }
+.chip.g-desk::before { background: var(--s2); }
 .chip.g-tools::before { background: var(--s3); }
 
 /* buttons */
@@ -173,7 +174,7 @@ textarea { min-height: 84px; resize: vertical; }
 .pace-bar { display: flex; gap: 2px; height: 36px; }
 .pace-bar button { border: 0; padding: 0; border-radius: 6px 6px 0 0; cursor: pointer; min-width: 6px; }
 .pace-bar button:focus-visible { outline-offset: 1px; }
-.seg-field { background: var(--s1); } .seg-research { background: var(--s2); } .seg-tools { background: var(--s3); } .seg-frame, .seg-backup { background: var(--sN); }
+.seg-field { background: var(--s1); } .seg-desk { background: var(--s2); } .seg-research { background: var(--s2); } .seg-tools { background: var(--s3); } .seg-frame, .seg-backup { background: var(--sN); }
 .pace-labels { display: flex; gap: 2px; font-size: 11px; color: var(--ink2); }
 .pace-labels span { text-align: center; overflow: hidden; }
 .pace-labels .sec { color: var(--muted); display: block; }

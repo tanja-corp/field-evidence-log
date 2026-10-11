@@ -160,7 +160,7 @@
       labels.append(h('span', { style }, s.id, h('span', { class: 'sec' }, s.seconds + '秒')));
     });
     const legend = h('div', { class: 'legend' },
-      [['field', '現場', 'var(--s1)'], ['research', '調査', 'var(--s2)'], ['tools', 'ツール', 'var(--s3)'], ['frame', '導入・まとめ', 'var(--sN)']]
+      Object.entries(D.deck.groups).filter(([k]) => main.some(s => s.group === k)).map(([k, g]) => [k, g.label, g.color_slot === 'neutral' ? 'var(--sN)' : `var(--s${g.color_slot})`])
         .map(([, label, col]) => h('span', {}, h('i', { style: 'background:' + col }), label)));
 
     const groupBtns = [['all', 'すべて']].concat(Object.entries(deck.groups).map(([k, v]) => [k, v.label]))
@@ -188,7 +188,7 @@
       h('div', { class: 'warnbox' }, m.time_slot_ja),
       h('h3', {}, `本編の読み上げ時間：約${min1(total)}分`),
       h('div', { class: 'pace' }, bar, labels), legend,
-      h('p', { class: 'core-line' }, `時間が足りないときは、コアの${core.length}枚（${core.map(s => s.id).join('・')}）だけで約${min1(coreTotal)}分。現場の4件はS02の一覧で済ませられる。`),
+      core.length < main.length ? h('p', { class: 'core-line' }, `時間が足りないときは、コアの${core.length}枚（${core.map(s => s.id).join('・')}）だけで約${min1(coreTotal)}分。`) : null,
       h('p', { class: 'muted small' }, m.title_note_ja),
       h('div', { class: 'filters section-gap' }, groupWrap, h('div', { class: 'grp' }, needsBtn)),
       list,
@@ -199,7 +199,7 @@
         h('tbody', {}, deck.deck_map.map(r => h('tr', {},
           h('td', {}, `${r.orig}　${r.orig_title}`),
           h('td', {}, r.to.length ? r.to.join('、') : '—'),
-          h('td', {}, { kept: '残した', replaced: '置き換えた', split: '2枚に分けた', moved: '動かした', dropped: '削った', restored: '復元した' }[r.action] || r.action),
+          h('td', {}, { kept: '残した', replaced: '置き換えた', split: '2枚に分けた', moved: '動かした', dropped: '削った', restored: '復元した', merged: 'まとめた', added: '加えた' }[r.action] || r.action),
           h('td', {}, r.note_ja))))))
     );
     renderSlides();

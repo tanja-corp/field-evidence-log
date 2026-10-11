@@ -1,19 +1,26 @@
 {
   "meta": {
-    "deck_title": "From Field Evidence to Better Agro Decisions",
-    "version": "v1",
-    "updated": "2026-10-09",
+    "deck_title": "From Desk to Field: Grounding research in farm reality",
+    "version": "v2",
+    "updated": "2026-10-11",
     "audience_ja": "月例のAdmin Meeting。全部署の統括メンバーが参加する。毎月午前9時開始。",
-    "file_hint": "AdminMeeting_AgroTeam_FieldEvidence_v1.pptx",
-    "time_slot_ja": "持ち時間は未確定。秒数は発表者ノートの語数（毎分130語）から出した読み上げの目安で、割り当てではない。",
-    "title_note_ja": "題名は「現場の証拠 → より良い農業の判断」という流れをそのまま示す。成果が出たとは言わず、副題は「could mean」で止めている。"
+    "file_hint": "AdminMeeting_AgroTeam_DeskToField_v2.pptx",
+    "time_slot_ja": "持ち時間の目安は5〜7分。秒数は発表者ノートの英語部分の語数（毎分130語）から出した読み上げの目安。ノートは英語→日本語の順。",
+    "title_note_ja": "題名は、机上の調査（マクロ）から現場（ミクロ）へ進むという、この先の方針をそのまま示す。履歴書にも書ける形にした。"
   },
   "groups": {
-    "frame": { "label": "導入・まとめ", "color_slot": "neutral" },
-    "field": { "label": "現場", "color_slot": 1 },
-    "research": { "label": "調査", "color_slot": 2 },
-    "tools": { "label": "ツール", "color_slot": 3 },
-    "backup": { "label": "補足", "color_slot": "neutral" }
+    "frame": {
+      "label": "導入・まとめ",
+      "color_slot": "neutral"
+    },
+    "field": {
+      "label": "現場",
+      "color_slot": 1
+    },
+    "desk": {
+      "label": "机上の仕事",
+      "color_slot": 2
+    }
   },
   "tag_labels": {
     "observed": "観察",
@@ -25,164 +32,277 @@
     "method": "方法",
     "result-elsewhere": "結果は別資料",
     "prototype": "試作",
-    "idea": "構想"
+    "idea": "構想",
+    "photo": "写真",
+    "diagram": "図解"
   },
   "slides": [
     {
-      "id": "S01", "no": 1, "group": "frame", "core": true, "seconds": 25,
-      "title": "From Field Evidence to Better Agro Decisions",
-      "takeaway": "What I saw, recorded and researched, and what it could mean for each team",
-      "purpose_ja": "発表の約束を示す。現場・記録・調査を、判断につなげる話だと最初に伝える。",
-      "lines": ["Agro Team update · Admin Meeting · October 2026"],
-      "tags": [], "decision_ja": "", "asks": [], "status": "draft"
-    },
-    {
-      "id": "S02", "no": 2, "group": "frame", "core": true, "seconds": 40,
-      "title": "My work at a glance",
-      "takeaway": "Six pieces of work, each linked to a decision it could inform.",
-      "purpose_ja": "6件の仕事と、それぞれが役立つ判断を1枚で見せる。時間が足りないときは、この1枚で現場の4件を済ませられる。",
-      "lines": ["Cattle records / Land survey / Soil testing / Harvest trial / Cold-chain research / Daily-information tools", "Right column: the decision each piece could inform"],
-      "tags": [], "decision_ja": "全体", "asks": [], "status": "draft"
-    },
-    {
-      "id": "S03", "no": 3, "group": "field", "core": false, "seconds": 45,
-      "title": "Cattle records",
-      "takeaway": "One sheet lets us compare animals before deciding which to sell.",
-      "purpose_ja": "牛の情報を1つの表にそろえると、売る牛の判断に使えることを示す。柵と見回りの印象は「私の見方」として分けて出す。",
+      "tags": [],
+      "asks": [],
+      "status": "draft",
+      "core": true,
+      "decision_ja": "",
+      "id": "S01",
+      "no": 1,
+      "group": "frame",
+      "seconds": 30,
+      "title": "From Desk to Field",
+      "takeaway": "Grounding research in farm reality",
+      "purpose_ja": "題名で方針を示す。これまでは机上、これからは現場。",
       "lines": [
-        "DID: entered 45 head into one sheet (pregnancy status, expected sale price, milk performance)",
-        "PURPOSE: identify animals that could be sold, as a source of cash",
-        "OBSERVED: noticed possible gaps in fencing and monitoring (impression from inside the pen)"
-      ],
-      "tags": ["recorded", "observed", "ask"], "decision_ja": "売却する牛の選定と、柵と見回りの確認",
-      "asks": ["Is there a fence-repair or herd-count routine I should learn about?"], "status": "draft"
+        "Agro Team update · Admin Meeting · October 2026"
+      ]
     },
     {
-      "id": "S04", "no": 4, "group": "field", "core": false, "seconds": 40,
-      "title": "Land survey",
-      "takeaway": "A plot that looks promising on the map still needs a check on the ground.",
-      "purpose_ja": "地図で有望でも、現地で危険や使いにくさが見つかった経験から、現地確認の項目を決める提案につなげる。",
+      "tags": [],
+      "asks": [],
+      "status": "draft",
+      "core": true,
+      "decision_ja": "",
+      "id": "S02",
+      "no": 2,
+      "group": "frame",
+      "seconds": 30,
+      "title": "Why I am speaking today",
+      "takeaway": "My work only moves forward when it connects with your teams.",
+      "purpose_ja": "なぜAdmin Meetingで話すのかを最初に置く。チームの一員のインターンで、仕事は一人では完結しない。今日は、してきたこと・次の方向・相談したいこと。",
       "lines": [
-        "DID: walked candidate plots with the team and helped measure the land",
-        "OBSERVED: buffalo at some places; dense, thin trees at others",
-        "MY VIEW: both made some locations risky to use, although the map did not show it"
-      ],
-      "tags": ["observed", "my-view", "ask"], "decision_ja": "候補地の選定と安全確認",
-      "asks": ["Do we use a site checklist today? What would you add?"], "status": "draft"
+        "I am an intern on the team",
+        "None of this work is done alone",
+        "Today: what I have done, where I want to go next, how I would like to work with you"
+      ]
     },
     {
-      "id": "S05", "no": 5, "group": "field", "core": false, "seconds": 35,
-      "title": "Annual soil testing",
-      "takeaway": "Spreading a termite treatment does not confirm the termites are gone.",
-      "purpose_ja": "散布したことと効いたことは別、という観察を1件の事実として出す。原因は言い切らず、記録の取り方を提案する。",
+      "tags": [
+        "photo"
+      ],
+      "asks": [],
+      "status": "draft",
+      "core": true,
+      "decision_ja": "",
+      "id": "S03",
+      "no": 3,
+      "group": "desk",
+      "seconds": 30,
+      "title": "Most of my work so far has been at the desk",
+      "takeaway": "Three desk projects, plus some days in the field.",
+      "purpose_ja": "机上の仕事3件を写真つきで一覧にする。",
       "lines": [
-        "DID: joined the once-a-year soil test",
-        "OBSERVED: termites still in the soil after a treatment had been spread",
-        "MY VIEW: one observation; cause unknown (timing, product or coverage)"
-      ],
-      "tags": ["observed", "my-view", "ask"], "decision_ja": "害虫対策のあとの確認方法",
-      "asks": ["Who tracks pest-control results today? Could we log where and when each treatment is spread?"], "status": "draft"
+        "Lagoon survey",
+        "Web dashboard and website",
+        "Avocado cold-chain research"
+      ]
     },
     {
-      "id": "S06", "no": 6, "group": "field", "core": false, "seconds": 40,
-      "title": "Avocado harvest trial",
-      "takeaway": "A two-group comparison tests whether containers make yield easier to measure.",
-      "purpose_ja": "収穫班を2つに分けて比べる方法を紹介する。結果の数値は同僚の成果で、共有済みなので載せない。",
+      "tags": [
+        "public-source",
+        "photo"
+      ],
+      "asks": [],
+      "status": "draft",
+      "core": true,
+      "decision_ja": "池の大きさと処理方法",
+      "id": "S04",
+      "no": 4,
+      "group": "desk",
+      "seconds": 55,
+      "title": "Lagoon survey: coffee processing wastewater",
+      "takeaway": "A desk calculation tells us what to measure at the pond.",
+      "purpose_ja": "排水の池の大きさと処理方法を、公開資料で整理した。計算シートと現地測量ガイドを作り、次は同僚と池を実測する。",
       "lines": [
-        "METHOD: harvest crew split in two; one group used harvest containers, the other did not",
-        "COMPARED: yield measured, and how efficiently each group worked",
-        "RESULT: already shared with the team; not repeated here"
-      ],
-      "tags": ["method", "result-elsewhere", "ask"], "decision_ja": "収量の測り方と作業効率の見方",
-      "asks": ["Which yield figures would your team want from each harvest?"],
-      "status": "needs-input", "blocker_ja": "結果の数値を載せるか未決（Q04）。自分の役割も未確認。"
+        "Pond size depends on water use, rain and evaporation",
+        "Treatment methods compared across Kenya, Ethiopia and Latin America",
+        "Next: measure the existing pond"
+      ]
     },
     {
-      "id": "S07", "no": 7, "group": "research", "core": true, "seconds": 65,
-      "title": "My research: cold chains for export",
-      "takeaway": "Public data becomes questions we can test in the field.",
-      "purpose_ja": "調査の進め方（集める、1事実1枚、現地で聞く）と、代表の数字を1つ示す。",
+      "tags": [
+        "prototype",
+        "idea"
+      ],
+      "asks": [],
+      "status": "draft",
+      "core": true,
+      "decision_ja": "日々の計画に必要な情報",
+      "id": "S05",
+      "no": 5,
+      "group": "desk",
+      "seconds": 40,
+      "title": "Web dashboard and website",
+      "takeaway": "Showing farm information in one place, so teams can see it quickly.",
+      "purpose_ja": "コーヒーベッドの試作と会社サイトの試作を、画面で見せる。天気・電気・車の位置は構想。",
       "lines": [
-        "Question: can better cold chains help East African produce reach export markets?",
-        "Three steps: collect, one fact per slide, ask in the field",
-        "Chart: Tanzania's avocado export value, USD million, 2015-2024 (FAOSTAT, calendar year, nominal)",
-        "2019 to 2024: 9.0M to 49.8M (5.6 times); 5th of 8 in 2024 among avocado and 7 traditional export crops"
-      ],
-      "tags": ["public-source"], "decision_ja": "輸出の計画と、現地ヒアリングの準備",
-      "asks": [], "status": "draft"
+        "Coffee bed dashboard: prototype from a sheet snapshot, not live",
+        "Company website: EN/SW/JP prototype",
+        "Ideas: weather, power, vehicle locations"
+      ]
     },
     {
-      "id": "S08", "no": 8, "group": "research", "core": true, "seconds": 70,
-      "title": "Where public sources disagree or stop",
-      "takeaway": "Three things to check before we rely on the numbers.",
-      "purpose_ja": "公式の数字でも食い違うこと、設備の発表と実際の利用は別なこと、新しい規則が収穫に関わることを、「報告されたこと」と「まだ分からないこと」に分けて示す。",
+      "tags": [
+        "public-source"
+      ],
+      "asks": [],
+      "status": "draft",
+      "core": true,
+      "decision_ja": "輸出の計画",
+      "id": "S06",
+      "no": 6,
+      "group": "desk",
+      "seconds": 55,
+      "title": "Avocado cold-chain research",
+      "takeaway": "Collecting the latest official sources, so the team starts from facts.",
+      "purpose_ja": "目的・調べた分野・やり方だけを言う。数字は出さない。",
       "lines": [
-        "How big is the crop? Two official production figures differ about five times (different years and methods); the 19% export share depends on the choice",
-        "Is the cold chain ready? Facilities are reported by government or operators; no independent data on use",
-        "A new rule touches our harvest: Avocado Crop Management Regulations (April 2026); enforcement is a question for the regulator"
-      ],
-      "tags": ["public-source", "to-confirm"], "decision_ja": "生産量の見積り。収穫から冷却までの時間の確認",
-      "asks": [], "status": "draft"
+        "Policy, export rules and guidelines, infrastructure, other countries",
+        "One fact per slide, with sources, shared with my boss"
+      ]
     },
     {
-      "id": "S09", "no": 9, "group": "tools", "core": false, "seconds": 40,
-      "title": "Making daily information easier to see",
-      "takeaway": "A first prototype shows what a shared view of daily conditions could look like.",
-      "purpose_ja": "構想（天気・電気・車の位置）と試作（コーヒーベッドの表示）を区別する。必要な情報と記録の手間を聞く。",
+      "tags": [
+        "photo",
+        "observed"
+      ],
+      "asks": [],
+      "status": "draft",
+      "core": true,
+      "decision_ja": "",
+      "id": "S07",
+      "no": 7,
+      "group": "field",
+      "seconds": 30,
+      "title": "Days in the field",
+      "takeaway": "Short visits that showed me how the farm works on the ground.",
+      "purpose_ja": "現場に出た日を写真とタイトルだけで1枚にまとめる。",
       "lines": [
-        "Weather and power: idea / Vehicle GPS: idea / Coffee drying beds: prototype",
-        "The bed dashboard is built from a CSV snapshot and does not update live"
+        "Cattle records",
+        "Land survey",
+        "Soil testing in the macadamia fields",
+        "Avocado harvest trial"
+      ]
+    },
+    {
+      "tags": [
+        "diagram"
       ],
-      "tags": ["idea", "prototype", "ask"], "decision_ja": "日々の計画に必要な情報",
-      "asks": ["Which daily information would help your team most, and how can we record it without extra work?"],
-      "status": "draft"
+      "asks": [],
+      "status": "draft",
+      "core": true,
+      "decision_ja": "",
+      "id": "S08",
+      "no": 8,
+      "group": "frame",
+      "seconds": 40,
+      "title": "Macro, mezzo and micro",
+      "takeaway": "Desk research gives the scope; the field shows the reality. We need both.",
+      "purpose_ja": "前回のアグロ会議で教わった枠組みを図で示し、自分の現在地（マクロ）と行き先（ミクロ）を見せる。",
+      "lines": [
+        "Macro: desk research / Mezzo: interviews / Micro: field data",
+        "I am here (macro) → where I want to go (micro)"
+      ]
     },
     {
-      "id": "S10", "no": 10, "group": "frame", "core": true, "seconds": 35,
-      "title": "What this could mean for each team",
-      "takeaway": "The labels are my own grouping. Please tell me where your team fits.",
-      "purpose_ja": "部署ごとに「気づいたこと」と「聞きたいこと」を並べ、会議で具体的な助言をもらう。部署名は仮の分け方。",
-      "lines": ["Six rows: field operations, livestock, export and logistics, finance and planning, data and tools, sales and brand"],
-      "tags": ["my-view", "ask"], "decision_ja": "各部署の判断",
-      "asks": ["One question per row"],
-      "status": "needs-input", "blocker_ja": "部署名が仮（Q03）。最終行（日本のカフェへの紹介）を残すか未決（Q06）。"
-    },
-    {
-      "id": "S11", "no": 11, "group": "frame", "core": true, "seconds": 25,
-      "title": "Coming up",
-      "takeaway": "",
-      "purpose_ja": "次にやること（コーヒー摘み、ナイロビの現地ヒアリング、今日の助言の反映）で締める。",
-      "lines": ["Coffee picking, goal: three buckets", "Nairobi field interviews, 14 October", "Your advice, today"],
-      "tags": [], "decision_ja": "", "asks": [], "status": "draft"
-    },
-    {
-      "id": "S12", "no": 12, "group": "backup", "core": false, "seconds": 40,
-      "title": "Where is Tanzania's avocado grown?",
-      "takeaway": "Kilimanjaro led reported household production in 2023/24; Mbeya led the Southern Highlands.",
-      "purpose_ja": "質問が出たときの補足。原本で画像の下に隠れていた地図を復元した。",
-      "lines": ["Regional map and table from the national statistics survey 2023/24 (farming households only)"],
-      "tags": ["public-source"], "decision_ja": "", "asks": [], "status": "draft"
-    },
-    {
-      "id": "S13", "no": 13, "group": "backup", "core": false, "seconds": 70,
-      "title": "Sources and definitions",
-      "takeaway": "Every number in the research slides, with its year, unit and limits.",
-      "purpose_ja": "出典を聞かれたときの補足。各数字の年、単位、定義と、使えない比べ方を並べる。",
-      "lines": ["Seven rows: figure, source, definition and caution"],
-      "tags": ["public-source"], "decision_ja": "", "asks": [], "status": "draft"
+      "tags": [
+        "ask"
+      ],
+      "asks": [],
+      "status": "draft",
+      "core": true,
+      "decision_ja": "",
+      "id": "S09",
+      "no": 9,
+      "group": "frame",
+      "seconds": 45,
+      "title": "What I would like to do with you",
+      "takeaway": "Take the desk work into the field, with your help.",
+      "purpose_ja": "一般的な言い方で協力を頼み、コーヒー摘みの宣言（3バケツ）で閉じる。",
+      "lines": [
+        "Check desk findings against the field",
+        "Learn how you look at the field",
+        "Talk with you before starting something new",
+        "Coffee picking: three buckets"
+      ]
     }
   ],
   "deck_map": [
-    { "orig": 1, "orig_title": "MY WORK PROGRESS ACROSS THE FARM", "to": ["S01"], "action": "kept", "note_ja": "題名を変え、副題と名前・肩書きを加えた。" },
-    { "orig": 2, "orig_title": "What I hope to share today", "to": ["S02"], "action": "replaced", "note_ja": "3項目の目次を、判断につながる6件の一覧に置き換えた。" },
-    { "orig": 3, "orig_title": "Cattle identification in practice", "to": ["S03"], "action": "kept", "note_ja": "事実・目的・観察・問いに分けて1枚にした。" },
-    { "orig": 4, "orig_title": "Surveying land", "to": ["S04"], "action": "kept", "note_ja": "観察と私の見方を分けた。" },
-    { "orig": 5, "orig_title": "Annual soil testing", "to": ["S05"], "action": "kept", "note_ja": "1件の観察であることを明記した。" },
-    { "orig": 6, "orig_title": "Measuring the avocado harvest", "to": ["S06"], "action": "kept", "note_ja": "方法のみ。結果の数値は共有済みの資料に任せ、載せていない。" },
-    { "orig": 7, "orig_title": "My research: cold chains for export", "to": ["S07", "S08"], "action": "split", "note_ja": "1枚に詰めていた調査を2枚に分け、出典の食い違いと新しい規則を加えた。「11〜3月に海上輸送を止める」「中東の高値期」は、最新の成果物で裏付けが取れず外した。海上輸送の停止そのものは記録があり、高値期は未確認。" },
-    { "orig": 8, "orig_title": "Next week: coffee picking", "to": ["S11"], "action": "moved", "note_ja": "「来週」をやめ、終わりの「次にやること」に移した。" },
-    { "orig": 9, "orig_title": "（会社サイトのスクリーンショット。文字なし）", "to": [], "action": "dropped", "note_ja": "画像1枚で新しい情報がなく、聴衆には既知。削った。" },
-    { "orig": 10, "orig_title": "Making daily work easier to see", "to": ["S09"], "action": "kept", "note_ja": "構想と試作を区別。QRコードを残した。" },
-    { "orig": 11, "orig_title": "（画像で隠れた生産地の地図／終わりの文）", "to": ["S12", "S10"], "action": "restored", "note_ja": "隠れていた地図を補足に復元。終わりの文（カフェ紹介の依頼）はS10の1行にした。" }
+    {
+      "orig": 1,
+      "orig_title": "MY WORK PROGRESS ACROSS THE FARM",
+      "to": [
+        "S01"
+      ],
+      "action": "kept",
+      "note_ja": "題名を「From Desk to Field」に変えた。"
+    },
+    {
+      "orig": 2,
+      "orig_title": "What I hope to share today",
+      "to": [
+        "S02"
+      ],
+      "action": "replaced",
+      "note_ja": "目次をやめ、話す理由と今日の3点に置き換えた。"
+    },
+    {
+      "orig": "3–6",
+      "orig_title": "牛、土地の測量、土壌検査、アボカド収穫",
+      "to": [
+        "S07"
+      ],
+      "action": "merged",
+      "note_ja": "写真とタイトルだけの1枚にまとめた。"
+    },
+    {
+      "orig": 7,
+      "orig_title": "My research: cold chains for export",
+      "to": [
+        "S06"
+      ],
+      "action": "kept",
+      "note_ja": "数字を出さず、目的・調べた分野・やり方だけにした。"
+    },
+    {
+      "orig": 8,
+      "orig_title": "Next week: coffee picking",
+      "to": [
+        "S09"
+      ],
+      "action": "moved",
+      "note_ja": "締めの宣言（3バケツ）にした。"
+    },
+    {
+      "orig": 9,
+      "orig_title": "（会社サイトのスクリーンショット）",
+      "to": [],
+      "action": "dropped",
+      "note_ja": "文字がなく、新しい情報がないため削った。"
+    },
+    {
+      "orig": 10,
+      "orig_title": "Making daily work easier to see",
+      "to": [
+        "S05"
+      ],
+      "action": "kept",
+      "note_ja": "会社サイトの試作を加え、画面で見せる形にした。"
+    },
+    {
+      "orig": 11,
+      "orig_title": "（隠れた地図／カフェ紹介の依頼）",
+      "to": [],
+      "action": "dropped",
+      "note_ja": "今回の主題から外した。"
+    },
+    {
+      "orig": "新規",
+      "orig_title": "—",
+      "to": [
+        "S03",
+        "S04",
+        "S08"
+      ],
+      "action": "added",
+      "note_ja": "机上の仕事の一覧、ラグーン調査、マクロ・メゾ・ミクロの図を加えた。"
+    }
   ]
 }
