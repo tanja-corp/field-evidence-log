@@ -5,9 +5,30 @@
   "subtitle": "現場で確かめたことを、判断と実績につなげる記録",
   "purpose_ja": "インターンで何をして、何が分かったかを1か所にためる。まず月例のAdmin Meetingで発表し、その後は最終成果発表、ES、面接でも使えるように育てる。",
   "milestones": [
-    { "label": "Nairobi 現地ヒアリング（調査の質問を試す）", "date": "2026-10-14", "state": "fixed" },
-    { "label": "Admin Meeting（毎月 9:00）", "date": null, "state": "tbd", "note": "日付と持ち時間が未確定" },
-    { "label": "インターンの最終成果発表", "date": null, "state": "tbd", "note": "日付と形式が未確定" }
+    {
+      "label": "ラグーンの実測（同僚と）",
+      "date": null,
+      "state": "tbd",
+      "note": "日付は未確定"
+    },
+    {
+      "label": "コーヒー摘み（目標3バケツ）",
+      "date": null,
+      "state": "tbd",
+      "note": "日付は未確定"
+    },
+    {
+      "label": "Admin Meeting（毎月 9:00）",
+      "date": null,
+      "state": "tbd",
+      "note": "日付と持ち時間が未確定"
+    },
+    {
+      "label": "インターンの最終成果発表",
+      "date": null,
+      "state": "tbd",
+      "note": "日付と形式が未確定"
+    }
   ],
   "area_labels": {
     "field": "現場作業",
