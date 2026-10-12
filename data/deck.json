@@ -1,10 +1,10 @@
 {
   "meta": {
     "deck_title": "From Desk to Field: Grounding research in farm reality",
-    "version": "v2",
-    "updated": "2026-10-11",
+    "version": "v2.1",
+    "updated": "2026-10-12",
     "audience_ja": "月例のAdmin Meeting。全部署の統括メンバーが参加する。毎月午前9時開始。",
-    "file_hint": "AdminMeeting_AgroTeam_DeskToField_v2.pptx",
+    "file_hint": "AdminMeeting_AgroTeam_DeskToField_v2_1.pptx",
     "time_slot_ja": "持ち時間の目安は5〜7分。秒数は発表者ノートの英語部分の語数（毎分130語）から出した読み上げの目安。ノートは英語→日本語の順。",
     "title_note_ja": "題名は、机上の調査（マクロ）から現場（ミクロ）へ進むという、この先の方針をそのまま示す。履歴書にも書ける形にした。"
   },
@@ -97,6 +97,7 @@
     {
       "tags": [
         "public-source",
+        "diagram",
         "photo"
       ],
       "asks": [],
@@ -109,7 +110,7 @@
       "seconds": 55,
       "title": "Lagoon survey: coffee processing wastewater",
       "takeaway": "A desk calculation tells us what to measure at the pond.",
-      "purpose_ja": "排水の池の大きさと処理方法を、公開資料で整理した。計算シートと現地測量ガイドを作り、次は同僚と池を実測する。",
+      "purpose_ja": "排水の流れ（チェリー→加工→排水→池→処理・再利用）と、水の使い方ごとの池の大きさを英語の図で示す。次は同僚と池を実測する。",
       "lines": [
         "Pond size depends on water use, rain and evaporation",
         "Treatment methods compared across Kenya, Ethiopia and Latin America",
@@ -140,7 +141,8 @@
     },
     {
       "tags": [
-        "public-source"
+        "public-source",
+        "diagram"
       ],
       "asks": [],
       "status": "draft",
@@ -149,10 +151,10 @@
       "id": "S06",
       "no": 6,
       "group": "desk",
-      "seconds": 55,
+      "seconds": 65,
       "title": "Avocado cold-chain research",
       "takeaway": "Collecting the latest official sources, so the team starts from facts.",
-      "purpose_ja": "目的・調べた分野・やり方だけを言う。数字は出さない。",
+      "purpose_ja": "農場から輸出市場までの流れを図にし、政策・施設・輸送と港・市場のどこを調べたかを示す。数字は出さない。",
       "lines": [
         "Policy, export rules and guidelines, infrastructure, other countries",
         "One fact per slide, with sources, shared with my boss"
