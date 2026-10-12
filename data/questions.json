@@ -79,8 +79,8 @@
   {
     "id": "Q11",
     "topic": "題名",
-    "text_ja": "題名は「From Desk to Field: Grounding research in farm reality」でよいか？",
-    "why_ja": "別案は「Macro to Micro: Learning the farm from both ends」。",
+    "text_ja": "題は「From the Desk to the Field」でよいか？",
+    "why_ja": "素朴な言い方に変えた。副題は「What I have done so far, and where I want to go next」。",
     "affects": [
       "S01"
     ]

@@ -1,12 +1,12 @@
 {
   "meta": {
-    "deck_title": "From Desk to Field: Grounding research in farm reality",
-    "version": "v2.1",
+    "deck_title": "From the Desk to the Field",
+    "version": "v2.2",
     "updated": "2026-10-12",
     "audience_ja": "月例のAdmin Meeting。全部署の統括メンバーが参加する。毎月午前9時開始。",
-    "file_hint": "AdminMeeting_AgroTeam_DeskToField_v2_1.pptx",
+    "file_hint": "AdminMeeting_AgroTeam_DeskToField_v2_2.pptx",
     "time_slot_ja": "持ち時間の目安は5〜7分。秒数は発表者ノートの英語部分の語数（毎分130語）から出した読み上げの目安。ノートは英語→日本語の順。",
-    "title_note_ja": "題名は、机上の調査（マクロ）から現場（ミクロ）へ進むという、この先の方針をそのまま示す。履歴書にも書ける形にした。"
+    "title_note_ja": "題は素朴に「From the Desk to the Field（机上から現場へ）」。副題は「これまでやったことと、次に進みたい方向」。"
   },
   "groups": {
     "frame": {
@@ -47,8 +47,8 @@
       "no": 1,
       "group": "frame",
       "seconds": 30,
-      "title": "From Desk to Field",
-      "takeaway": "Grounding research in farm reality",
+      "title": "From the Desk to the Field",
+      "takeaway": "What I have done so far, and where I want to go next",
       "purpose_ja": "題名で方針を示す。これまでは机上、これからは現場。",
       "lines": [
         "Agro Team update · Admin Meeting · October 2026"
